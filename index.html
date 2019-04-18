@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MLB Quiz</title>
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="A quiz to test your knowledge on Major League Baseball.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="bgImage"></div>
+        <header class="banner" role="banner">
+            <img  class="logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Major_League_Baseball_logo.svg/1200px-Major_League_Baseball_logo.svg.png
+            " alt="Major League Baseball Logo">
+            <ul class="headerItemsUl">
+                <li class="headerItems">
+                    <p>Question: <span class="currentQuestion">0</span>/10</p>
+                </li>
+                <li class="headerItems">
+                    <p>Score: <span class="currentScore">0</span>/<span class="possibleScore">0</span></p>
+                </li>
+            </ul>
+        </header>
+        <main role="main">
+            <section class="startPage">
+                <h1>Major League Baseball Quiz</h1>
+                <h2>This quiz will test your MLB knowledge</h2>
+                <button type="button" class="startButton">Start</button>   
+            </section>
+            <section class="questionPage">
+                <form class="questionForm">
+                </form>
+            </section>
+            <section class="answerPage">
+            </section>
+            <section class="resultPage">
+            </section>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
